@@ -3,6 +3,7 @@ package com.guuto0044.deslist.services;
 import com.guuto0044.deslist.dto.GameDTO;
 import com.guuto0044.deslist.dto.GameMinDTO;
 import com.guuto0044.deslist.entities.Game;
+import com.guuto0044.deslist.projections.GameMinProjection;
 import com.guuto0044.deslist.repositorys.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -31,7 +32,11 @@ public class GameService {
 
     }
 
-
+    @Transactional(readOnly = true)
+    public List<GameMinDTO>findByList(Long listId){
+        List<GameMinProjection> result = gameRepository.searchByList(listId);
+        return result.stream().map(GameMinDTO::new).toList();
+    }
 
 
 }
