@@ -1,9 +1,9 @@
-package com.guuto0044.deslist.service;
+package com.guuto0044.deslist.services;
 
 import com.guuto0044.deslist.dto.GameDTO;
 import com.guuto0044.deslist.dto.GameMinDTO;
 import com.guuto0044.deslist.entities.Game;
-import com.guuto0044.deslist.repository.GameRepository;
+import com.guuto0044.deslist.repositorys.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;

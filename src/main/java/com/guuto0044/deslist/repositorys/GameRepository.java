@@ -1,4 +1,4 @@
-package com.guuto0044.deslist.repository;
+package com.guuto0044.deslist.repositorys;
 
 import com.guuto0044.deslist.entities.Game;
 import org.springframework.data.jpa.repository.JpaRepository;

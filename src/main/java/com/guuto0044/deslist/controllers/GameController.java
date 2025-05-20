@@ -1,9 +1,9 @@
-package com.guuto0044.deslist.controller;
+package com.guuto0044.deslist.controllers;
 
 import com.guuto0044.deslist.dto.GameDTO;
 import com.guuto0044.deslist.dto.GameMinDTO;
 
-import com.guuto0044.deslist.service.GameService;
+import com.guuto0044.deslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,7 +1,7 @@
 package com.guuto0044.deslist.dto;
 
 import com.guuto0044.deslist.entities.Game;
-import jakarta.persistence.Column;
+
 import org.springframework.beans.BeanUtils;
 
 
