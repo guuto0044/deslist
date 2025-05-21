@@ -19,7 +19,6 @@ public class BelongingPK {
 
     public BelongingPK(){
 
-
     }
 
     public BelongingPK(Game game, GameList list) {
